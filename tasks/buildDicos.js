@@ -196,7 +196,8 @@ for (const file of exercicesList) {
         if (/export +const +interactifType */.test(srcContent)) {
           // regex à vérifier même si elle ne doit théoriquement pas servir puisque le module fonctionne
           // regex suivante ne fonctionnera pas quand interactifReady est un objet
-          interactifType = srcContent.match(/export +const +interactifType *= *'([a-zA-Z0-9].*)'/)[1]
+         const interactifTypeMatch = srcContent.match(/export +const +interactifType *= *'([a-zA-Z0-9].*)'/)
+interactifType = interactifTypeMatch ? interactifTypeMatch[1] : ''
         } else {
           interactifType = 'export const interactifType non présent (à l\'ancienne)'
         }
