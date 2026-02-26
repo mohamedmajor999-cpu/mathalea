@@ -311,3 +311,4 @@ Le code est libre, AGPL, vous pouvez donc télécharger les sources sur [GitHub]
 - Possibilité de régler un paramètre spécifique de l'exercice.
 - Réglage de l'espacement entre les questions .
 - Exercices sur les fractions.
+- redeploy
