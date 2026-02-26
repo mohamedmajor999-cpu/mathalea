@@ -1,6 +1,6 @@
 {
   "outputDirectory": "build",
   "rewrites": [
-    { "source": "/", "destination": "/exercice.html" }
+    { "source": "/", "destination": "/mathalea.html" }
   ]
 }
