@@ -1,3 +1,6 @@
 {
-  "outputDirectory": "build"
+  "outputDirectory": "build",
+  "redirects": [
+    { "source": "/", "destination": "/exercice.html", "permanent": false }
+  ]
 }
